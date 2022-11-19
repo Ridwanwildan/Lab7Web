@@ -1,11 +1,25 @@
 # :rocket: Latihan PHP Dasar
 
-Made With :
+Made With : [![Google Chrome](https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://www.google.com/intl/id_id/chrome/) [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/) [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 
 - Nama : Hizbullah Ridwan
 - NIM : 312110055
 - Kelas : TI.21.B.1
 - Mata Kuliah : Pemrograman Web
+
+Daftar isi :
+
+- [Install XAMPP](https://github.com/Ridwanwildan/Lab7Web#install-xampp)
+- [Run Web Server](https://github.com/Ridwanwildan/Lab7Web#run-web-server)
+- [Create Folder and File](https://github.com/Ridwanwildan/Lab7Web#create-folder-and-file)
+- [Hello World](https://github.com/Ridwanwildan/Lab7Web#hello-world)
+- [Variable](https://github.com/Ridwanwildan/Lab7Web#variable)
+- [Predefine Variable GET](https://github.com/Ridwanwildan/Lab7Web#predefine-variable-get)
+- [Create Form Input](https://github.com/Ridwanwildan/Lab7Web#create-form-input)
+- [Operator](https://github.com/Ridwanwildan/Lab7Web#operator)
+- [Conditional](https://github.com/Ridwanwildan/Lab7Web#conditional)
+- [Loop](https://github.com/Ridwanwildan/Lab7Web#loop)
+- [Tugas](https://github.com/Ridwanwildan/Lab7Web#tugas)
 
 ## Install XAMPP
 
