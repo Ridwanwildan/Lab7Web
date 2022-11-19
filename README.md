@@ -165,3 +165,55 @@ Contoh conditional menggunakan switch adalah seperti ini :
     }
 ?>
 ```
+
+## Loop
+
+Perulangan atau loop pada PHP sama juga seperti bahasa pemrograman lainnya. Ada for loop, while loop, dan dowhile loop.
+
+### For Loop
+
+Contoh for loop adalah seperti ini :
+
+```bash
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+    for ($i=1; $i<=10; $i++) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+    echo "Perulangan Menurun dari 10 ke 1 <br />";
+    for ($i=10; $i>=1; $i--) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+?>
+```
+
+### While Loop
+
+Contoh while loop adalah seperti ini :
+
+```bash
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+    $i=1;
+    while ($i<=10) {
+        echo "Perulangan ke: " . $i . '<br />';
+        $i++;
+    }
+?>
+```
+
+### Do While Loop
+
+Contoh Do While Loop adalah seperti ini :
+
+```bash
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+    $i=1;
+    do {
+        echo "Perulangan ke: " . $i . '<br />';
+        $i++;
+    }
+    while ($i<=10);
+?>
+```
