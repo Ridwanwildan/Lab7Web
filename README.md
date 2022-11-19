@@ -37,10 +37,37 @@ Untuk membuat hello world pada PHP seperti ini :
   <body>
     <h1>Belajar PHP Dasar</h1>
     <?php
- echo "Hello World";
- ?>
+      echo "Hello World";?>
   </body>
 </html>
 ```
 
 ![Gambar 3](Screenshoots/Capture3.PNG)
+
+## Variable
+
+Untuk membuat variable pada PHP, harus menyertakan tanda `$` didepannya seperti ini :
+
+```bash
+<?php
+    $nim = "0411500400";
+    $nama = 'Abdullah';
+    echo "NIM : " . $nim . "<br>"; echo "Nama : $nama";
+?>
+```
+
+![Gambar 4](Screenshoots/Capture4.PNG)
+
+## Predefine Variable GET
+
+Untuk membuat predefine variable dengan get adalah seperti ini :
+
+```bash
+<?php
+    echo 'Selamat Datang ' . $_GET['name'];
+?>
+```
+
+Dan untuk mengaksesnya, yaitu dengan menambahkan `?name=nama_saya` dibelakang URL nya.
+
+![Gambar 5](Screenshoots/Capture5.PNG)
