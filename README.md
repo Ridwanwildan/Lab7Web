@@ -71,3 +71,29 @@ Untuk membuat predefine variable dengan get adalah seperti ini :
 Dan untuk mengaksesnya, yaitu dengan menambahkan `?name=nama_saya` dibelakang URL nya.
 
 ![Gambar 5](Screenshoots/Capture5.PNG)
+
+## Create Form Input
+
+Form input dibuat dengan HTML dan ditambah dengan method `post` untuk menampilkan hasil inputnya. Seperti ini :
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PHP Dasar</title>
+  </head>
+  <body>
+    <h2>Form Input</h2>
+    <form method="post">
+      <label>Nama: </label>
+      <input type="text" name="nama" />
+      <input type="submit" value="Kirim" />
+    </form>
+    <?php
+      echo 'Selamat Datang ' . $_POST['nama'];?>
+  </body>
+</html>
+```
+
+![Gambar 6](Screenshoots/Capture6.PNG)
