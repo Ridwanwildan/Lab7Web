@@ -97,3 +97,71 @@ Form input dibuat dengan HTML dan ditambah dengan method `post` untuk menampilka
 ```
 
 ![Gambar 6](Screenshoots/Capture6.PNG)
+
+## Operator
+
+Operator pada PHP sama seperti pada bahasa pemrograman lainnya, ada penjumlahan, pengurangan, perkalian, pembagian, modulus dan lainnya. Seperti ini :
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Operator</title>
+  </head>
+  <body>
+    <?php
+      $gaji = 1000000;
+      $pajak = 0.1;
+      $thp = $gaji - ($gaji*$pajak);
+      echo "Gaji sebelum pajak = Rp. $gaji <br>";
+      echo "Gaji yang dibawa pulang = Rp. $thp";?>
+  </body>
+</html>
+```
+
+![Gambar 7](Screenshoots/Capture7.PNG)
+
+## Conditional
+
+Conditional pada PHP sama juga seperti bahasa pemrograman lainnya. Ada if, if-else dan juga switch.
+
+### If
+
+Contoh conditional if adalah seperti ini :
+
+```bash
+<?php
+    $nama_hari = date("l");
+    if ($nama_hari == "Sunday") {
+    echo "Minggu";
+    } elseif ($nama_hari == "Monday") {
+    echo "Senin";
+    } else {
+    echo "Selasa";
+    }
+?>
+```
+
+### Switch
+
+Contoh conditional menggunakan switch adalah seperti ini :
+
+```bash
+<?php
+    $nama_hari = date("l");
+    switch ($nama_hari) {
+        case "Sunday":
+        echo "Minggu";
+        break;
+        case "Monday":
+        echo "Senin";
+        break;
+        case "Tuesday":
+        echo "Selasa";
+        break;
+        default:
+        echo "Sabtu";
+    }
+?>
+```
